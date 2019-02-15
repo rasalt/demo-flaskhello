@@ -12,7 +12,7 @@ def hello():
 
 @app.route('/hello/<name>')
 def success(name):
-   return 'hello and welcome %s \n' % name
+   return 'Hello and Welcome %s \n' % name
 
 @app.route('/hello',methods = ['POST', 'GET'])
 def login():
